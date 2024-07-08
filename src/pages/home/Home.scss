@@ -1,0 +1,46 @@
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
+    .nav{
+        height: 80px;
+        display: flex;
+        padding: 0px 40px;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid gray;
+    }
+    .table-wrapper{
+        width: 100%;
+        padding: 20px 40px;
+        table{
+            width: 100%;
+            th{
+                width: 50%;
+            }
+            .heading{
+                font-size: 24px;
+                font-weight: 500;
+            }
+            .actions{
+                display: flex;
+                gap: 10px;
+                justify-content: flex-end;
+                align-items: center;
+            }
+            thead{
+                border-bottom: 1px solid #ccc;
+                height: 60px;
+            }
+            tbody{
+                tr{
+                    height: 60px;
+                    td{
+                        height: 60px;
+                    }
+                    border-bottom: 1px solid #ccc;
+                }
+                font-size: 20px;
+            }
+        }
+    }
+}
